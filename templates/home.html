@@ -3,4 +3,6 @@
 
 {% block content %}
 <h1>Hello World!</h1>
+<a href="{% url 'someapp:send_mail' %}">send mail</a>
+<a href="{% url 'someapp:export_somemodel' %}">export somemodel</a>
 {% endblock content %}

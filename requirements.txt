@@ -1,2 +1,7 @@
 Django==2.0.3
 psycopg2
+gunicorn
+celery
+redis
+django-import-export
+openpyxl==2.4.9
